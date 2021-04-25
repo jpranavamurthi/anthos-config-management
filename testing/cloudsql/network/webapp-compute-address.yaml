@@ -5,7 +5,7 @@ metadata:
   namespace: trifacta-infrastructure
 spec:
   addressType: INTERNAL
-  location: us-east1
+  location: global
   purpose: VPC_PEERING
   prefixLength: 16
   networkRef:
