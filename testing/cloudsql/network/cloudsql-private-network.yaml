@@ -3,3 +3,5 @@ kind: ComputeNetwork
 metadata:
   name: trifacta-test-vpc
   namespace: trifacta-infrastructure
+spec:
+  autoCreateSubnetworks: false
