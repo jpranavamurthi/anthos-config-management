@@ -1,0 +1,5 @@
+apiVersion: compute.cnrm.cloud.google.com/v1beta1
+kind: ComputeNetwork
+metadata:
+  name: trifacta-test-vpc
+  namespace: trifacta-infrastructure
