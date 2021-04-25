@@ -1,0 +1,11 @@
+apiVersion: servicenetworking.cnrm.cloud.google.com/v1beta1
+kind: ServiceNetworkingConnection
+metadata:
+  name: cloudsql-private-connection
+  namespace: trifacta-infrastructure
+spec:
+  networkRef:
+    name: trifacta-test-vpc
+  reservedPeeringRanges:
+  - name: webapp-private-address
+  service: servicenetworking.googleapis.com

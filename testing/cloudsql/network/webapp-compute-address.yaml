@@ -1,0 +1,12 @@
+apiVersion: compute.cnrm.cloud.google.com/v1beta1
+kind: ComputeAddress
+metadata:
+  name: webapp-private-address
+  namespace: trifacta-infrastructure  
+spec:
+  addressType: INTERNAL
+  location: global
+  purpose: VPC_PEERING
+  prefixLength: 16
+  networkRef:
+    name: trifacta-test-vpc
